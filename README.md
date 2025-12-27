@@ -9,7 +9,7 @@
 ## 📄 Paper Attribution
 
 This implementation is based on the research paper:
-- **Title**: LLM-Augmented Machine Translation for Cross-Lingual E-Commerce Search
+- **Title**: LLM-Augmented Machine Translation for Cross-Lingual E-Commerce Search (https://sigir-ecom.github.io/eCom25Papers/paper_18.pdf)
 - **Architecture**: Multi-Locale Query Translation System (Figure 1)
 
 ## 🎯 Features
