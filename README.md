@@ -21,6 +21,12 @@ This implementation is based on the research paper:
 - **Neural Machine Translation**: MarianMT with contextual post-processing rules
 - **Offline LLM Preprocessing**: Pre-populates Translation Memory before runtime
 
+## Demo
+
+
+https://github.com/user-attachments/assets/60ebd148-b18e-42da-863a-d8532020d043
+
+
 ## 🏗️ Architecture
 
 ```
