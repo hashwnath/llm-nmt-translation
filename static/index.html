@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM-NMT Translation System | E-Commerce Search</title>
+    <meta name="description" content="Three-tier cascading translation system for cross-lingual e-commerce search">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">🌐</span>
+                <h1>LLM-NMT Translation</h1>
+            </div>
+            <p class="tagline">Three-Tier Cascading Translation for E-Commerce Search</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Translation Panel -->
+            <section class="translation-panel">
+                <div class="input-section">
+                    <label for="french-input">French Query</label>
+                    <div class="input-wrapper">
+                        <textarea 
+                            id="french-input" 
+                            placeholder="Enter French e-commerce search query..."
+                            rows="3"
+                        >yogurt liberté logo</textarea>
+                        <button id="translate-btn" class="btn-primary">
+                            <span class="btn-text">Translate</span>
+                            <span class="btn-loading hidden">
+                                <span class="spinner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="output-section">
+                    <label>English Translation</label>
+                    <div class="output-wrapper">
+                        <div id="english-output" class="output-text">
+                            Translation will appear here...
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Panel -->
+            <section class="results-panel">
+                <!-- Tier Breakdown -->
+                <div class="card tier-breakdown">
+                    <h3>Translation Path</h3>
+                    <div class="tier-flow">
+                        <div class="tier-step" id="tier-cache">
+                            <div class="tier-icon">💾</div>
+                            <div class="tier-info">
+                                <span class="tier-name">Tier 1: Cache</span>
+                                <span class="tier-desc">Translation Memory</span>
+                            </div>
+                            <div class="tier-status"></div>
+                        </div>
+                        <div class="tier-arrow">→</div>
+                        <div class="tier-step" id="tier-entity">
+                            <div class="tier-icon">🏷️</div>
+                            <div class="tier-info">
+                                <span class="tier-name">Tier 2A: Entity</span>
+                                <span class="tier-desc">Brand Detection</span>
+                            </div>
+                            <div class="tier-status"></div>
+                        </div>
+                        <div class="tier-arrow">→</div>
+                        <div class="tier-step" id="tier-ambiguity">
+                            <div class="tier-icon">🔍</div>
+                            <div class="tier-info">
+                                <span class="tier-name">Tier 2B: Ambiguity</span>
+                                <span class="tier-desc">Context Resolution</span>
+                            </div>
+                            <div class="tier-status"></div>
+                        </div>
+                        <div class="tier-arrow">→</div>
+                        <div class="tier-step" id="tier-nmt">
+                            <div class="tier-icon">🤖</div>
+                            <div class="tier-info">
+                                <span class="tier-name">Tier 3: NMT</span>
+                                <span class="tier-desc">Neural Translation</span>
+                            </div>
+                            <div class="tier-status"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Details Grid -->
+                <div class="details-grid">
+                    <!-- Entities Card -->
+                    <div class="card entities-card">
+                        <h3>🏷️ Preserved Entities</h3>
+                        <div id="entities-list" class="entities-list">
+                            <span class="placeholder">No entities detected</span>
+                        </div>
+                    </div>
+
+                    <!-- Ambiguity Card -->
+                    <div class="card ambiguity-card">
+                        <h3>🔍 Ambiguity Resolution</h3>
+                        <div id="ambiguity-info" class="ambiguity-info">
+                            <span class="placeholder">No ambiguous words</span>
+                        </div>
+                    </div>
+
+                    <!-- Metrics Card -->
+                    <div class="card metrics-card">
+                        <h3>📊 Performance</h3>
+                        <div class="metrics-grid">
+                            <div class="metric">
+                                <span class="metric-value" id="latency-value">--</span>
+                                <span class="metric-label">Latency (ms)</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value" id="confidence-value">--</span>
+                                <span class="metric-label">Confidence</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value" id="tier-value">--</span>
+                                <span class="metric-label">Tier Used</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Session Context Panel -->
+            <section class="context-panel">
+                <div class="card">
+                    <h3>🛒 Session Context Simulator</h3>
+                    <p class="card-desc">Simulate user browsing to affect ambiguity resolution</p>
+                    
+                    <div class="context-buttons">
+                        <button class="context-btn" data-category="school_supplies">
+                            📚 Browse School Supplies
+                        </button>
+                        <button class="context-btn" data-category="candy">
+                            🍬 Browse Candy
+                        </button>
+                        <button class="context-btn" data-category="fruit">
+                            🍑 Browse Fruits
+                        </button>
+                        <button class="context-btn" data-category="sports">
+                            🎣 Browse Sports
+                        </button>
+                        <button class="context-btn" data-category="cosmetics">
+                            💄 Browse Cosmetics
+                        </button>
+                        <button class="context-btn" data-category="dairy">
+                            🥛 Browse Dairy
+                        </button>
+                    </div>
+                    
+                    <div id="current-context" class="current-context">
+                        <span class="context-label">Current Context:</span>
+                        <span id="context-value">None</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Demo Queries -->
+            <section class="demo-panel">
+                <div class="card">
+                    <h3>🎯 Demo Queries</h3>
+                    <p class="card-desc">Click to try these example queries</p>
+                    
+                    <div class="demo-queries" id="demo-queries">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- System Stats -->
+            <section class="stats-panel">
+                <div class="card">
+                    <h3>📈 System Statistics</h3>
+                    <div class="stats-grid" id="system-stats">
+                        <div class="stat">
+                            <span class="stat-value" id="stat-total">0</span>
+                            <span class="stat-label">Total Translations</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value" id="stat-cache-rate">0%</span>
+                            <span class="stat-label">Cache Hit Rate</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value" id="stat-avg-latency">0ms</span>
+                            <span class="stat-label">Avg Latency</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value" id="stat-entities">0</span>
+                            <span class="stat-label">Entities Preserved</span>
+                        </div>
+                    </div>
+                    <button id="refresh-stats" class="btn-secondary">Refresh Stats</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>LLM-Augmented Machine Translation for E-Commerce Search</p>
+            <p class="tech-stack">FastAPI • MarianMT • OpenAI GPT-4o-mini</p>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

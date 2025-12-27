@@ -1,0 +1,440 @@
+{
+    "brands": [
+        {
+            "name": "Liberté",
+            "category": "dairy",
+            "aliases": [
+                "liberte",
+                "liberté"
+            ]
+        },
+        {
+            "name": "Royale",
+            "category": "household",
+            "aliases": [
+                "royale"
+            ]
+        },
+        {
+            "name": "Kleenex",
+            "category": "household",
+            "aliases": [
+                "kleenex"
+            ]
+        },
+        {
+            "name": "Tampax",
+            "category": "personal_care",
+            "aliases": [
+                "tampax"
+            ]
+        },
+        {
+            "name": "Tresor",
+            "category": "cosmetics",
+            "aliases": [
+                "tresor",
+                "trésor"
+            ]
+        },
+        {
+            "name": "Lancôme",
+            "category": "cosmetics",
+            "aliases": [
+                "lancome",
+                "lancôme"
+            ]
+        },
+        {
+            "name": "Chanel",
+            "category": "cosmetics",
+            "aliases": [
+                "chanel"
+            ]
+        },
+        {
+            "name": "Danone",
+            "category": "dairy",
+            "aliases": [
+                "danone"
+            ]
+        },
+        {
+            "name": "Activia",
+            "category": "dairy",
+            "aliases": [
+                "activia"
+            ]
+        },
+        {
+            "name": "Yoplait",
+            "category": "dairy",
+            "aliases": [
+                "yoplait"
+            ]
+        },
+        {
+            "name": "Nestlé",
+            "category": "food",
+            "aliases": [
+                "nestle",
+                "nestlé"
+            ]
+        },
+        {
+            "name": "L'Oréal",
+            "category": "cosmetics",
+            "aliases": [
+                "loreal",
+                "l'oreal",
+                "l'oréal"
+            ]
+        },
+        {
+            "name": "Pampers",
+            "category": "baby",
+            "aliases": [
+                "pampers"
+            ]
+        },
+        {
+            "name": "Huggies",
+            "category": "baby",
+            "aliases": [
+                "huggies"
+            ]
+        },
+        {
+            "name": "Tide",
+            "category": "household",
+            "aliases": [
+                "tide"
+            ]
+        },
+        {
+            "name": "Bounty",
+            "category": "household",
+            "aliases": [
+                "bounty"
+            ]
+        },
+        {
+            "name": "Charmin",
+            "category": "household",
+            "aliases": [
+                "charmin"
+            ]
+        },
+        {
+            "name": "Crest",
+            "category": "personal_care",
+            "aliases": [
+                "crest"
+            ]
+        },
+        {
+            "name": "Colgate",
+            "category": "personal_care",
+            "aliases": [
+                "colgate"
+            ]
+        },
+        {
+            "name": "Oral-B",
+            "category": "personal_care",
+            "aliases": [
+                "oral-b",
+                "oralb"
+            ]
+        },
+        {
+            "name": "Gillette",
+            "category": "personal_care",
+            "aliases": [
+                "gillette"
+            ]
+        },
+        {
+            "name": "Venus",
+            "category": "personal_care",
+            "aliases": [
+                "venus"
+            ]
+        },
+        {
+            "name": "Dove",
+            "category": "personal_care",
+            "aliases": [
+                "dove"
+            ]
+        },
+        {
+            "name": "Axe",
+            "category": "personal_care",
+            "aliases": [
+                "axe"
+            ]
+        },
+        {
+            "name": "Old Spice",
+            "category": "personal_care",
+            "aliases": [
+                "old spice",
+                "oldspice"
+            ]
+        },
+        {
+            "name": "Head & Shoulders",
+            "category": "personal_care",
+            "aliases": [
+                "head & shoulders",
+                "head and shoulders"
+            ]
+        },
+        {
+            "name": "Pantene",
+            "category": "personal_care",
+            "aliases": [
+                "pantene"
+            ]
+        },
+        {
+            "name": "Herbal Essences",
+            "category": "personal_care",
+            "aliases": [
+                "herbal essences"
+            ]
+        },
+        {
+            "name": "Olay",
+            "category": "cosmetics",
+            "aliases": [
+                "olay"
+            ]
+        },
+        {
+            "name": "CoverGirl",
+            "category": "cosmetics",
+            "aliases": [
+                "covergirl",
+                "cover girl"
+            ]
+        },
+        {
+            "name": "Maybelline",
+            "category": "cosmetics",
+            "aliases": [
+                "maybelline"
+            ]
+        },
+        {
+            "name": "Revlon",
+            "category": "cosmetics",
+            "aliases": [
+                "revlon"
+            ]
+        },
+        {
+            "name": "MAC",
+            "category": "cosmetics",
+            "aliases": [
+                "mac"
+            ]
+        },
+        {
+            "name": "NARS",
+            "category": "cosmetics",
+            "aliases": [
+                "nars"
+            ]
+        },
+        {
+            "name": "Fenty",
+            "category": "cosmetics",
+            "aliases": [
+                "fenty"
+            ]
+        },
+        {
+            "name": "Gatorade",
+            "category": "beverages",
+            "aliases": [
+                "gatorade"
+            ]
+        },
+        {
+            "name": "Pepsi",
+            "category": "beverages",
+            "aliases": [
+                "pepsi"
+            ]
+        },
+        {
+            "name": "Coca-Cola",
+            "category": "beverages",
+            "aliases": [
+                "coca-cola",
+                "coca cola",
+                "coke"
+            ]
+        },
+        {
+            "name": "Sprite",
+            "category": "beverages",
+            "aliases": [
+                "sprite"
+            ]
+        },
+        {
+            "name": "Fanta",
+            "category": "beverages",
+            "aliases": [
+                "fanta"
+            ]
+        },
+        {
+            "name": "Red Bull",
+            "category": "beverages",
+            "aliases": [
+                "red bull",
+                "redbull"
+            ]
+        },
+        {
+            "name": "Monster",
+            "category": "beverages",
+            "aliases": [
+                "monster"
+            ]
+        },
+        {
+            "name": "Lay's",
+            "category": "snacks",
+            "aliases": [
+                "lays",
+                "lay's"
+            ]
+        },
+        {
+            "name": "Doritos",
+            "category": "snacks",
+            "aliases": [
+                "doritos"
+            ]
+        },
+        {
+            "name": "Cheetos",
+            "category": "snacks",
+            "aliases": [
+                "cheetos"
+            ]
+        },
+        {
+            "name": "Pringles",
+            "category": "snacks",
+            "aliases": [
+                "pringles"
+            ]
+        },
+        {
+            "name": "Oreo",
+            "category": "snacks",
+            "aliases": [
+                "oreo"
+            ]
+        },
+        {
+            "name": "Nutella",
+            "category": "food",
+            "aliases": [
+                "nutella"
+            ]
+        },
+        {
+            "name": "Kellogg's",
+            "category": "food",
+            "aliases": [
+                "kellogg's",
+                "kelloggs"
+            ]
+        },
+        {
+            "name": "General Mills",
+            "category": "food",
+            "aliases": [
+                "general mills"
+            ]
+        },
+        {
+            "name": "Quaker",
+            "category": "food",
+            "aliases": [
+                "quaker"
+            ]
+        }
+    ],
+    "product_lines": [
+        {
+            "name": "Yogurt Liberté",
+            "brand": "Liberté",
+            "category": "dairy"
+        },
+        {
+            "name": "Toilet Paper Royale",
+            "brand": "Royale",
+            "category": "household"
+        },
+        {
+            "name": "Kleenex Facial Tissue",
+            "brand": "Kleenex",
+            "category": "household"
+        },
+        {
+            "name": "Tresor Eau de Parfum",
+            "brand": "Tresor",
+            "category": "cosmetics"
+        },
+        {
+            "name": "Activia Probiotic Yogurt",
+            "brand": "Activia",
+            "category": "dairy"
+        },
+        {
+            "name": "Pampers Baby Dry",
+            "brand": "Pampers",
+            "category": "baby"
+        },
+        {
+            "name": "Tide Pods",
+            "brand": "Tide",
+            "category": "household"
+        },
+        {
+            "name": "Crest 3D White",
+            "brand": "Crest",
+            "category": "personal_care"
+        },
+        {
+            "name": "Dove Body Wash",
+            "brand": "Dove",
+            "category": "personal_care"
+        },
+        {
+            "name": "Olay Regenerist",
+            "brand": "Olay",
+            "category": "cosmetics"
+        }
+    ],
+    "franchises": [
+        {
+            "name": "Statue of Liberty",
+            "type": "landmark",
+            "related_brand": "Liberté"
+        },
+        {
+            "name": "Royal Crown",
+            "type": "symbol",
+            "related_brand": "Royale"
+        }
+    ]
+}

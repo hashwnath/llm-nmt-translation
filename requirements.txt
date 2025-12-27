@@ -1,0 +1,29 @@
+# LLM-NMT Translation System Requirements
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Pydantic for data validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# OpenAI API
+openai>=1.6.0
+
+# Machine Translation
+transformers>=4.36.0
+torch>=2.1.0
+sentencepiece>=0.1.99
+
+# Text Processing
+rapidfuzz>=3.5.0
+
+# Metrics
+sacrebleu>=2.4.0
+
+# System monitoring (for benchmarks)
+psutil>=5.9.0
+
+# Development/Optional
+python-dotenv>=1.0.0

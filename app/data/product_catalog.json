@@ -1,0 +1,333 @@
+{
+    "categories": {
+        "dairy": {
+            "name_en": "Dairy",
+            "name_fr": "Produits laitiers",
+            "keywords_fr": [
+                "lait",
+                "yogurt",
+                "fromage",
+                "beurre",
+                "crème"
+            ],
+            "keywords_en": [
+                "milk",
+                "yogurt",
+                "cheese",
+                "butter",
+                "cream"
+            ],
+            "popular_brands": [
+                "Liberté",
+                "Danone",
+                "Activia",
+                "Yoplait"
+            ]
+        },
+        "household": {
+            "name_en": "Household",
+            "name_fr": "Ménage",
+            "keywords_fr": [
+                "papier",
+                "nettoyant",
+                "lessive",
+                "mouchoir"
+            ],
+            "keywords_en": [
+                "paper",
+                "cleaner",
+                "detergent",
+                "tissue"
+            ],
+            "popular_brands": [
+                "Royale",
+                "Kleenex",
+                "Tide",
+                "Bounty",
+                "Charmin"
+            ]
+        },
+        "personal_care": {
+            "name_en": "Personal Care",
+            "name_fr": "Soins personnels",
+            "keywords_fr": [
+                "savon",
+                "shampooing",
+                "dentifrice",
+                "rasoir"
+            ],
+            "keywords_en": [
+                "soap",
+                "shampoo",
+                "toothpaste",
+                "razor"
+            ],
+            "popular_brands": [
+                "Dove",
+                "Crest",
+                "Gillette",
+                "Pantene"
+            ]
+        },
+        "cosmetics": {
+            "name_en": "Cosmetics",
+            "name_fr": "Cosmétiques",
+            "keywords_fr": [
+                "parfum",
+                "maquillage",
+                "rouge",
+                "mascara",
+                "fond de teint"
+            ],
+            "keywords_en": [
+                "perfume",
+                "makeup",
+                "lipstick",
+                "mascara",
+                "foundation"
+            ],
+            "popular_brands": [
+                "Tresor",
+                "Lancôme",
+                "L'Oréal",
+                "Maybelline",
+                "NARS"
+            ]
+        },
+        "food": {
+            "name_en": "Food",
+            "name_fr": "Alimentation",
+            "keywords_fr": [
+                "céréales",
+                "pâtes",
+                "riz",
+                "conserve",
+                "chocolat"
+            ],
+            "keywords_en": [
+                "cereal",
+                "pasta",
+                "rice",
+                "canned",
+                "chocolate"
+            ],
+            "popular_brands": [
+                "Nestlé",
+                "Kellogg's",
+                "General Mills",
+                "Nutella"
+            ]
+        },
+        "fruit": {
+            "name_en": "Fruits",
+            "name_fr": "Fruits",
+            "keywords_fr": [
+                "pomme",
+                "orange",
+                "banane",
+                "fraise",
+                "pêche",
+                "raisin"
+            ],
+            "keywords_en": [
+                "apple",
+                "orange",
+                "banana",
+                "strawberry",
+                "peach",
+                "grape"
+            ],
+            "popular_brands": []
+        },
+        "beverages": {
+            "name_en": "Beverages",
+            "name_fr": "Boissons",
+            "keywords_fr": [
+                "jus",
+                "soda",
+                "eau",
+                "café",
+                "thé",
+                "énergie"
+            ],
+            "keywords_en": [
+                "juice",
+                "soda",
+                "water",
+                "coffee",
+                "tea",
+                "energy"
+            ],
+            "popular_brands": [
+                "Pepsi",
+                "Coca-Cola",
+                "Red Bull",
+                "Gatorade"
+            ]
+        },
+        "snacks": {
+            "name_en": "Snacks",
+            "name_fr": "Collations",
+            "keywords_fr": [
+                "chips",
+                "biscuit",
+                "crackers",
+                "bonbon",
+                "chocolat"
+            ],
+            "keywords_en": [
+                "chips",
+                "cookie",
+                "crackers",
+                "candy",
+                "chocolate"
+            ],
+            "popular_brands": [
+                "Lay's",
+                "Doritos",
+                "Oreo",
+                "Pringles"
+            ]
+        },
+        "baby": {
+            "name_en": "Baby",
+            "name_fr": "Bébé",
+            "keywords_fr": [
+                "couche",
+                "biberon",
+                "lait maternisé",
+                "lingette"
+            ],
+            "keywords_en": [
+                "diaper",
+                "bottle",
+                "formula",
+                "wipes"
+            ],
+            "popular_brands": [
+                "Pampers",
+                "Huggies"
+            ]
+        },
+        "school_supplies": {
+            "name_en": "School Supplies",
+            "name_fr": "Fournitures scolaires",
+            "keywords_fr": [
+                "cahier",
+                "stylo",
+                "crayon",
+                "gomme",
+                "règle",
+                "cartable"
+            ],
+            "keywords_en": [
+                "notebook",
+                "pen",
+                "pencil",
+                "eraser",
+                "ruler",
+                "backpack"
+            ],
+            "popular_brands": []
+        },
+        "candy": {
+            "name_en": "Candy",
+            "name_fr": "Confiserie",
+            "keywords_fr": [
+                "bonbon",
+                "gomme",
+                "sucette",
+                "caramel",
+                "réglisse"
+            ],
+            "keywords_en": [
+                "candy",
+                "gum",
+                "lollipop",
+                "caramel",
+                "licorice"
+            ],
+            "popular_brands": []
+        },
+        "sports": {
+            "name_en": "Sports & Outdoors",
+            "name_fr": "Sports et plein air",
+            "keywords_fr": [
+                "pêche",
+                "camping",
+                "randonnée",
+                "vélo",
+                "natation"
+            ],
+            "keywords_en": [
+                "fishing",
+                "camping",
+                "hiking",
+                "cycling",
+                "swimming"
+            ],
+            "popular_brands": []
+        },
+        "jewelry": {
+            "name_en": "Jewelry",
+            "name_fr": "Bijoux",
+            "keywords_fr": [
+                "bague",
+                "collier",
+                "bracelet",
+                "couronne",
+                "or",
+                "argent"
+            ],
+            "keywords_en": [
+                "ring",
+                "necklace",
+                "bracelet",
+                "crown",
+                "gold",
+                "silver"
+            ],
+            "popular_brands": []
+        },
+        "bakery": {
+            "name_en": "Bakery",
+            "name_fr": "Boulangerie",
+            "keywords_fr": [
+                "pain",
+                "baguette",
+                "croissant",
+                "couronne",
+                "brioche"
+            ],
+            "keywords_en": [
+                "bread",
+                "baguette",
+                "croissant",
+                "loaf",
+                "brioche"
+            ],
+            "popular_brands": []
+        },
+        "dental": {
+            "name_en": "Dental Care",
+            "name_fr": "Soins dentaires",
+            "keywords_fr": [
+                "dentiste",
+                "couronne",
+                "implant",
+                "blanchiment"
+            ],
+            "keywords_en": [
+                "dentist",
+                "crown",
+                "implant",
+                "whitening"
+            ],
+            "popular_brands": [
+                "Crest",
+                "Colgate",
+                "Oral-B"
+            ]
+        }
+    }
+}

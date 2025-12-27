@@ -1,0 +1,358 @@
+{
+    "ambiguous_words": {
+        "gomme": {
+            "meanings": [
+                {
+                    "translation": "eraser",
+                    "category": "school_supplies",
+                    "frequency": 0.65
+                },
+                {
+                    "translation": "gum",
+                    "category": "candy",
+                    "frequency": 0.35
+                }
+            ],
+            "default": "eraser"
+        },
+        "peche": {
+            "meanings": [
+                {
+                    "translation": "peach",
+                    "category": "fruit",
+                    "frequency": 0.70
+                },
+                {
+                    "translation": "fishing",
+                    "category": "sports",
+                    "frequency": 0.30
+                }
+            ],
+            "default": "peach"
+        },
+        "pêche": {
+            "meanings": [
+                {
+                    "translation": "peach",
+                    "category": "fruit",
+                    "frequency": 0.70
+                },
+                {
+                    "translation": "fishing",
+                    "category": "sports",
+                    "frequency": 0.30
+                }
+            ],
+            "default": "peach"
+        },
+        "couronne": {
+            "meanings": [
+                {
+                    "translation": "crown",
+                    "category": "jewelry",
+                    "frequency": 0.40
+                },
+                {
+                    "translation": "crown",
+                    "category": "dental",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "loaf",
+                    "category": "bakery",
+                    "frequency": 0.30
+                }
+            ],
+            "default": "crown"
+        },
+        "tresor": {
+            "meanings": [
+                {
+                    "translation": "treasure",
+                    "category": "general",
+                    "frequency": 0.40
+                },
+                {
+                    "translation": "Tresor",
+                    "category": "cosmetics",
+                    "frequency": 0.60,
+                    "is_brand": true
+                }
+            ],
+            "default": "Tresor"
+        },
+        "trésor": {
+            "meanings": [
+                {
+                    "translation": "treasure",
+                    "category": "general",
+                    "frequency": 0.40
+                },
+                {
+                    "translation": "Tresor",
+                    "category": "cosmetics",
+                    "frequency": 0.60,
+                    "is_brand": true
+                }
+            ],
+            "default": "Tresor"
+        },
+        "mousse": {
+            "meanings": [
+                {
+                    "translation": "mousse",
+                    "category": "food",
+                    "frequency": 0.50
+                },
+                {
+                    "translation": "foam",
+                    "category": "personal_care",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "moss",
+                    "category": "garden",
+                    "frequency": 0.20
+                }
+            ],
+            "default": "mousse"
+        },
+        "coin": {
+            "meanings": [
+                {
+                    "translation": "corner",
+                    "category": "general",
+                    "frequency": 0.60
+                },
+                {
+                    "translation": "wedge",
+                    "category": "food",
+                    "frequency": 0.40
+                }
+            ],
+            "default": "corner"
+        },
+        "glace": {
+            "meanings": [
+                {
+                    "translation": "ice cream",
+                    "category": "food",
+                    "frequency": 0.50
+                },
+                {
+                    "translation": "ice",
+                    "category": "general",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "mirror",
+                    "category": "household",
+                    "frequency": 0.20
+                }
+            ],
+            "default": "ice cream"
+        },
+        "carte": {
+            "meanings": [
+                {
+                    "translation": "card",
+                    "category": "general",
+                    "frequency": 0.50
+                },
+                {
+                    "translation": "map",
+                    "category": "travel",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "menu",
+                    "category": "food",
+                    "frequency": 0.20
+                }
+            ],
+            "default": "card"
+        },
+        "piece": {
+            "meanings": [
+                {
+                    "translation": "room",
+                    "category": "home",
+                    "frequency": 0.40
+                },
+                {
+                    "translation": "coin",
+                    "category": "money",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "piece",
+                    "category": "general",
+                    "frequency": 0.30
+                }
+            ],
+            "default": "piece"
+        },
+        "pièce": {
+            "meanings": [
+                {
+                    "translation": "room",
+                    "category": "home",
+                    "frequency": 0.40
+                },
+                {
+                    "translation": "coin",
+                    "category": "money",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "piece",
+                    "category": "general",
+                    "frequency": 0.30
+                }
+            ],
+            "default": "piece"
+        },
+        "verre": {
+            "meanings": [
+                {
+                    "translation": "glass",
+                    "category": "kitchenware",
+                    "frequency": 0.50
+                },
+                {
+                    "translation": "drink",
+                    "category": "beverages",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "lens",
+                    "category": "eyewear",
+                    "frequency": 0.20
+                }
+            ],
+            "default": "glass"
+        },
+        "feuille": {
+            "meanings": [
+                {
+                    "translation": "leaf",
+                    "category": "garden",
+                    "frequency": 0.50
+                },
+                {
+                    "translation": "sheet",
+                    "category": "school_supplies",
+                    "frequency": 0.50
+                }
+            ],
+            "default": "leaf"
+        },
+        "livre": {
+            "meanings": [
+                {
+                    "translation": "book",
+                    "category": "school_supplies",
+                    "frequency": 0.70
+                },
+                {
+                    "translation": "pound",
+                    "category": "weight",
+                    "frequency": 0.30
+                }
+            ],
+            "default": "book"
+        },
+        "avocat": {
+            "meanings": [
+                {
+                    "translation": "avocado",
+                    "category": "fruit",
+                    "frequency": 0.60
+                },
+                {
+                    "translation": "lawyer",
+                    "category": "profession",
+                    "frequency": 0.40
+                }
+            ],
+            "default": "avocado"
+        },
+        "souris": {
+            "meanings": [
+                {
+                    "translation": "mouse",
+                    "category": "animals",
+                    "frequency": 0.40
+                },
+                {
+                    "translation": "mouse",
+                    "category": "electronics",
+                    "frequency": 0.60
+                }
+            ],
+            "default": "mouse"
+        },
+        "orange": {
+            "meanings": [
+                {
+                    "translation": "orange",
+                    "category": "fruit",
+                    "frequency": 0.60
+                },
+                {
+                    "translation": "orange",
+                    "category": "color",
+                    "frequency": 0.40
+                }
+            ],
+            "default": "orange"
+        },
+        "marron": {
+            "meanings": [
+                {
+                    "translation": "chestnut",
+                    "category": "food",
+                    "frequency": 0.40
+                },
+                {
+                    "translation": "brown",
+                    "category": "color",
+                    "frequency": 0.60
+                }
+            ],
+            "default": "brown"
+        },
+        "liberté": {
+            "meanings": [
+                {
+                    "translation": "liberty",
+                    "category": "general",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "Liberté",
+                    "category": "dairy",
+                    "frequency": 0.70,
+                    "is_brand": true
+                }
+            ],
+            "default": "Liberté"
+        },
+        "royale": {
+            "meanings": [
+                {
+                    "translation": "royal",
+                    "category": "general",
+                    "frequency": 0.30
+                },
+                {
+                    "translation": "Royale",
+                    "category": "household",
+                    "frequency": 0.70,
+                    "is_brand": true
+                }
+            ],
+            "default": "Royale"
+        }
+    }
+}
